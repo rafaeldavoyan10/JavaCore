@@ -54,7 +54,7 @@ public class ArrayUtil {
         }
         System.out.println("Odd numbers count: " + oddNums);
         //9
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             sum = sum + numbers[i];
         }
