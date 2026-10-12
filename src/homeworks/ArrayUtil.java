@@ -60,7 +60,8 @@ public class ArrayUtil {
         }
         System.out.println("Sum: " + sum);
         //10
-        System.out.println("Average: " + sum / numbers.length);
+        double averageNums = sum / numbers.length;
+        System.out.println("Average: " + averageNums);
         //bonus 1
         int max = numbers[0];
         for (int i = 0; i < numbers.length; i++) {
@@ -88,7 +89,7 @@ public class ArrayUtil {
         System.out.println("Negative Numbers: " + negativeNums);
         System.out.println("Zereo Numbers: " + zereoNums);
         //bonus 3
-        for (int i = numbers.length - 1; i > 0; i--) {
+        for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i] + " ");
         }
     }
