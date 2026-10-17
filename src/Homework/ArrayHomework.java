@@ -19,6 +19,10 @@ public class ArrayHomework {
             numbers2[i] = numbers2[numbers2.length - 1 - i];
             numbers2[numbers2.length - 1 - i] = temp;
         }
+        for (int i = 0; i < numbers2.length; i++) {
+            System.out.print(numbers2[i] + " ");
+        }
+        System.out.println();
         //4
         char[] chars = {'բ', 'ա', 'ր', 'և', 'ա', 'շ', 'խ', 'ա', 'ր', 'հ'};
         int vowelsCount = 0;
