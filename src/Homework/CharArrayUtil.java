@@ -89,6 +89,11 @@ public class CharArrayUtil {
             System.out.print(chars[i]);
         }
         System.out.println();
+        for (int i = 0; i < chars.length; i++) {
+            if (newChar == chars[i]){
+                chars[i] = oldChar;
+            }
+        }
         //10
         boolean palindrome = true;
         for (int i = 0; i < chars.length / 2; i++) {
